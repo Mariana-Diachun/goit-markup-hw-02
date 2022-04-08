@@ -11,7 +11,14 @@ body {
     color: var(--primary-text-color);
     background-color: #FFFFFF;
 }
+
+.link {
+    text-decoration: none;
+}
 /* -----------хедер----------- */
+.header-link.current {
+    color: var(--accent-color)
+}
 .header {
     background-color: var(--header-background-color);
 }
@@ -196,6 +203,20 @@ body {
     owerflow: hidden;
 }
 
+.portfolio-btn.main {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+
+
 .portfolio-btn {
     cursor: pointer;
 }
@@ -212,9 +233,7 @@ body {
 .portfolio-btn:hover, .portfolio-btn:focus {
     background: var(--accent-color);
 }
-.galery-title {
-    text-decoration: none;
-}
+
 .galery-title {
     font-weight: 700;
     font-size: 18px;
@@ -271,5 +290,5 @@ body {
 }
 .footer-contact:hover, 
 .footer-contact:focus {
-    color: var(--accent-color);
+    color: #FFFFFF ;
 }
