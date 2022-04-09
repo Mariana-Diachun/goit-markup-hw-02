@@ -1,3 +1,4 @@
+
 :root {
     --accent-color:#2196F3;
     --primary-text-color: #212121;
@@ -7,7 +8,7 @@
     
 }
 body {
-    font-family: "Roboto", Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
     background-color: #FFFFFF;
 }
@@ -46,6 +47,8 @@ body {
 }
 
 .header-logo-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: var(--primary-text-color);
 }
 
@@ -127,7 +130,7 @@ body {
     white-space: nowarp;
     clip-path: insert(100%);
     clip: rect(0 0 0 0);
-    owerflow: hidden;
+    overflow: hidden;
 }
 
 .benefits-title {
@@ -200,7 +203,7 @@ body {
     white-space: nowarp;
     clip-path: insert(100%);
     clip: rect(0 0 0 0);
-    owerflow: hidden;
+    overflow: hidden;
 }
 
 .portfolio-btn.main {
@@ -232,12 +235,14 @@ body {
 }
 .portfolio-btn:hover, .portfolio-btn:focus {
     background: var(--accent-color);
+    color: #FFFFFF;
+
 }
 
 .galery-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
